@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 files:
   - source: /
-    destination: /var/www/html/php-aws-codepipeline-example
+    destination: /home/ec2-user/application
 hooks:
   Install:
      - location: script_install.sh
