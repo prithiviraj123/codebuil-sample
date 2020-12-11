@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 files:
   - source: /
-    destination: /home/ec2-user/application
+    destination: /home/ec2-user/codebuil-sample
 hooks:
   ApplicationStop:
      - location: script_stop_server.sh
